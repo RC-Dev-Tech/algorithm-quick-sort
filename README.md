@@ -9,13 +9,15 @@
 然後對這兩部分進行遞迴排序。最終，所有的子部分排序完成後，整個數列就會有序。<br>
 <br>
 快速排序有多種實現版本，其中最常見的包括以下幾種：
-- [Lomuto partition scheme（洛穆托分區方案）](https://github.com/RC-Dev-Tech/algorithm-quick-sort-lomuto): 這是快速排序算法中較簡單的一種實現方式。它使用最右邊的元素作為基準點（pivot），<br>
-  將數列分成小於等於基準點和大於基準點的兩部分，並將基準點放在適當的位置。這種實現方式在遇到大量重複元素時性能較差。
+- [Lomuto partition scheme（洛穆托分區方案）](https://github.com/RC-Dev-Tech/algorithm-quick-sort-lomuto): 這是快速排序算法中較簡單的一種實現方式。<br>
+  它使用最右邊的元素作為基準點（pivot），將數列分成小於等於基準點和大於基準點的兩部分，並將基準點放在適當的位置。<br>
+  這種實現方式在遇到大量重複元素時性能較差。
   
 <br>
 
-- [Hoare partition scheme（霍爾分區方案）](https://github.com/RC-Dev-Tech/algorithm-quick-sort-hoare): 這是快速排序算法中較為高效的一種實現方式。它使用兩個指針，一個從數列左邊開始移動，<br>
-  一個從數列右邊開始移動，直到找到需要交換的元素，然後將它們交換。這種實現方式在處理大量重複元素時性能較好。
+- [Hoare partition scheme（霍爾分區方案）](https://github.com/RC-Dev-Tech/algorithm-quick-sort-hoare): 這是快速排序算法中較為高效的一種實現方式。<br>
+  它使用兩個指針，一個從數列左邊開始移動，一個從數列右邊開始移動，直到找到需要交換的元素，然後將它們交換。<br>
+  這種實現方式在處理大量重複元素時性能較好。
 
 <br>
 
